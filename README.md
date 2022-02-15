@@ -5,8 +5,10 @@
 1. It uses SASS instead of plain CSS
 2. It uses TypeScript instead of JavaScript
 3. `eslint` has been configured how I like it (tabulations with 4 spaces and all the lines ending in `;`)
-4. Uses Yarn
-5. GitHub Action to build the web/app on push or pull request to the main branch
+4. `lint-staged` using `prettier` and `Husky` has been added (so when committing, the code is automatically formatted and checked)
+5. VScode settings for auto-formatting on paste, save and more
+6. Uses Yarn
+7. GitHub Action to build the web/app on push or pull request to the main branch
 
 
 ---
@@ -20,8 +22,6 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 First, run the development server:
 
 ```bash
-npm run dev
-# or
 yarn dev
 ```
 
