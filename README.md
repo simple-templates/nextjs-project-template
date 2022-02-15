@@ -1,3 +1,5 @@
+[![Build](https://github.com/margual56/nextjs-project-template/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/margual56/nextjs-project-template/actions/workflows/main.yml)
+
 # NextJS template project
 ## What custom things does this have?
 1. It uses SASS instead of plain CSS
