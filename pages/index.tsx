@@ -8,7 +8,7 @@ import { Message } from "../components/message";
 import MessageComponent from "../components/message";
 
 interface HomeProps {
-    messages: Message[];
+	messages: Message[];
 }
 
 export default function Home(props: HomeProps) {
@@ -22,11 +22,11 @@ export default function Home(props: HomeProps) {
 
 			<main className={styles.main}>
 				<h1 className={styles.title}>
-                    Welcome to <a href="https://nextjs.org">Next.js!</a>
+					Welcome to <a href="https://nextjs.org">Next.js!</a>
 				</h1>
 
 				<p className={styles.description}>
-                    Get started by editing <code className={styles.code}>pages/index.js</code>
+					Get started by editing <code className={styles.code}>pages/index.js</code>
 				</p>
 
 				<div className={styles.grid}>
@@ -56,7 +56,7 @@ export default function Home(props: HomeProps) {
 						<p>Instantly deploy your Next.js site to a public URL with Vercel.</p>
 					</a>
 
-					<Card title="This is a test">
+					<Card title="This is a test" >
 						<MessageComponent messages={props.messages} />
 					</Card>
 				</div>
@@ -68,7 +68,7 @@ export default function Home(props: HomeProps) {
 					target="_blank"
 					rel="noopener noreferrer"
 				>
-                    Powered by{" "}
+					Powered by{" "}
 					<span className={styles.logo}>
 						<Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
 					</span>

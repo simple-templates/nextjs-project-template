@@ -1,13 +1,36 @@
 .messages {
 }
 
+$max-message-width: 25rem;
+
 .message {
-    color: black;
+	color: black;
 
-    padding: 2em 1em;
-    margin: 1em;
-    min-width: fit-content;
+	padding: 2em 1em;
+	margin: clamp(1rem, 5em, 0px);
+	min-width: min-content;
+	max-width: max-content;
 
-    border: 2px solid rgba(255, 0, 0, 0.151);
-    border-radius: 1em;
+	border: 2px solid rgba(255, 0, 0, 0.151);
+	border-radius: 1em;
+
+	blockquote {
+		border: 1px solid hsl(158deg 93% 20% / 90%);
+		padding: clamp(1rem, 100px, 10px);
+		margin: clamp(1rem, 5em, 0.5em);
+
+		border-radius: 5px;
+
+		display: flex;
+
+		&:before {
+			content: "\203A";
+			padding-top: 0 !important;
+			padding-right: 0.5em;
+			font-size: 2rem;
+			flex-grow: 1;
+
+			transform: translateY(-10px);
+		}
+	}
 }
