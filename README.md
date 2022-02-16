@@ -1,5 +1,7 @@
 [![Build](https://github.com/margual56/nextjs-project-template/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/margual56/nextjs-project-template/actions/workflows/main.yml)
 
+<h3 align="right">Visit <a href="https://nextjs-project-template-3ek075t3x-margual56.vercel.app/">the live version</a>!</h3>
+
 # NextJS template project
 
 ## What custom things does this have?
