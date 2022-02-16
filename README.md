@@ -17,6 +17,11 @@
 
 I have implemented a simple request to [jsonplaceholder.typecode.com](https://jsonplaceholder.typicode.com/posts) as an example on how to deal with APIs in NextJS using TypeScript.
 
+|Original example project|What was added|
+|-|-|
+|<img align="center" width="auto" height="400" src="https://user-images.githubusercontent.com/30444886/154343862-0940eab0-e293-4b73-b2a7-b54694135a45.png">|<img align="center" width="auto" height="400" src="https://user-images.githubusercontent.com/30444886/154344654-a9a4dd64-8802-4174-b06c-36a9b40411d0.png">|
+
+
 ## Requirements
 
 This project is configured to use VScode with the [Prettier](https://open-vsx.org/vscode/item?itemName=esbenp.prettier-vscode) extension installed, though I guess you could use other tools (no warranties).
